@@ -1,0 +1,199 @@
+{
+	"login_credentials": [
+		{
+			"username": "aldwinj@jetwebinar.com",
+			"password": "e4267660"
+		},
+		{
+			"username_inputifeld": "Username",
+			"csslocator": "#uname"
+		},
+		{
+			"password_inputfield": "Password",
+			"csslocator": "#pass"
+		},
+		{
+			"signin_button": "Sign In",
+			"csslocator": "#loginform > div:nth-child(3) > div.col-sm-8.text-right > button"
+		}
+	],
+	"Webinars_Main_menu": [
+		{
+			"Webinars": "Webinars",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(3) > a"
+		},
+		{
+			"All_Webinars": "All Webinars",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li.open > ul > li:nth-child(1) > a"
+		},
+		{
+			"Add_Webinars": "Add Webinar",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li.open > ul > li:nth-child(2) > a"
+		}
+	],
+	"Add_New_Webinar_Page": [
+		{
+			"URL": "https://aldwinj.qa.jetwebinar.com/admin/webinars/add"
+		},
+		{
+			"Title": "Add New Webinar - Select Template",
+			"csslocator": "#tour_addwebinar > div.portlet-title > div"
+		},
+		{
+			"Accordion_Template_Title": "Select A Template",
+			"csslocator": "#accordion1 > div > div.panel-heading > h4 > a"
+		}
+	],
+	"Adeline_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(1) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Adeline",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(1) > div > div.mt-card-content > h3"
+		},
+		{
+			"Adeline_subTitle": "Blue theme with waves",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(1) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Adeline_Button": "USE ADELINE",
+			"csslocator": "div > div:nth-child(1) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[1]"
+		}
+	],
+	"Mesa_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(2) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Mesa",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(2) > div > div.mt-card-content > h3"
+		},
+		{
+			"Mesa_subTitle": "Smoky grey theme",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(2) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Mesa_Button": "USE MESA",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(2) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[2]"
+		}
+	],
+	"Belmont_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(3) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Belmont",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(3) > div > div.mt-card-content > h3"
+		},
+		{
+			"Belmont_subTitle": "Digital blue theme",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(3) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Belmont_Button": "USE BELMONT",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(3) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[3]"
+		}
+	],
+	"Oak_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(4) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Oak",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(4) > div > div.mt-card-content > h3"
+		},
+		{
+			"Oak_subTitle": "Silver and clean theme",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(4) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Oak_Button": "USE OAK",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(4) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[4]"
+		}
+	],
+	"Nexgen_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(5) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Nexgen",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(5) > div > div.mt-card-content > h3"
+		},
+		{
+			"Nexgen_subTitle": "White minimalist theme",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(5) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Nexgen_Button": "USE NEXGEN",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(5) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[5]"
+		}
+	],
+	"Chicago_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(6) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Chicago",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(6) > div > div.mt-card-content > h3"
+		},
+		{
+			"Chicago_subTitle": "Blue minimalist theme",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(6) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Chicago_Button": "USE CHICAGO",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(6) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[6]"
+		}
+	],
+	"Clark_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(7) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Clark",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(7) > div > div.mt-card-content > h3"
+		},
+		{
+			"Clark_subTitle": "Silver classic theme",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(7) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Clark_Button": "USE CLARK",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(7) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[7]"
+		}
+	],
+	"Laguna_Template": [
+		{
+			"card_template": "",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(8) > div > div.mt-card-content"
+		},
+		{
+			"Template_Title": "Laguna",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(8) > div > div.mt-card-content > h3"
+		},
+		{
+			"Laguna_subTitle": "Dark digital theme",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(8) > div > div.mt-card-content > p"
+		},
+		{
+			"Use_Laguna_Button": "USE LAGUNA",
+			"csslocator": "#collapse_1 > div > div > div > div:nth-child(8) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[8]"
+		}
+	]
+}

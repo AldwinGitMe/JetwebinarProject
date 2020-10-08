@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Webinars"
+           tests="11"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="70.430">
+  <properties />
+  
+  
+            <testcase name="Test_If_Nexgen_Template_Exist" time="5.706" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Webinars_Main_Menu_Exist" time="7.672" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Webinars_Sub_Menus_Exist" time="7.330" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_Add_New_Webinars_Page" time="10.118" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Chicago_Template_Exist" time="5.685" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Adeline_Template_Exist" time="5.606" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Laguna_Template_Exist" time="5.618" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Oak_Template_Exist" time="5.667" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Mesa_Template_Exist" time="5.682" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Clark_Template_Exist" time="5.657" classname="Webinars.runTestAddWebinarTemplate" />
+                <testcase name="Test_If_Belmont_Template_Exist" time="5.689" classname="Webinars.runTestAddWebinarTemplate" />
+      
+</testsuite>

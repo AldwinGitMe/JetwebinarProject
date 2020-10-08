@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login_Home_Page"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="24.708">
+  <properties />
+  
+  
+            <testcase name="Test_If_Login_Without_Credentials" time="3.337" classname="Login_Home_Page.runTestLoginScenarios" />
+                <testcase name="Test_If_Login_Password_Only_Credentials" time="3.442" classname="Login_Home_Page.runTestLoginScenarios" />
+                <testcase name="Test_If_Login_Correct_Username_And_Password_Credentials" time="7.304" classname="Login_Home_Page.runTestLoginScenarios" />
+                <testcase name="Test_If_Login_Username_Only_Credentials" time="3.415" classname="Login_Home_Page.runTestLoginScenarios" />
+                <testcase name="Test_If_Login_Incorrect_Username_Incorrect_Password_Credentials" time="3.679" classname="Login_Home_Page.runTestLoginScenarios" />
+                <testcase name="Test_If_Login_Correct_Username_Incorrect_Password_Credentials" time="3.531" classname="Login_Home_Page.runTestLoginScenarios" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GroupOne"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="15.121">
+  <properties />
+  
+  
+            <testcase name="TestcaseTwo" time="5.008" classname="GroupOne.batchonetest" />
+                <testcase name="TestcaseThree" time="5.007" classname="GroupOne.batchonetest" />
+                <testcase name="TestcaseOne" time="5.012" classname="GroupOne.batchonetest" />
+                <testcase name="TestcaseFour" time="0.094" classname="GroupOne.batchonetest" />
+      
+</testsuite>

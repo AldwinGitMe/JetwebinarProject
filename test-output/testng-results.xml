@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42214" started-at="2020-09-30T19:24:10 SGT" finished-at="2020-09-30T19:24:52 SGT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42214" started-at="2020-09-30T19:24:10 SGT" finished-at="2020-09-30T19:24:52 SGT">
+      <class name="MeetingRooms.runTestMeetingRoomsPage">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="launchbrowser" is-config="true" duration-ms="23233" started-at="2020-09-30T19:24:10 SGT" finished-at="2020-09-30T19:24:33 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="Test_If_There_Is_MeetingRooms_Menu_Button_Exist()[pri:1, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_There_Is_MeetingRooms_Menu_Button_Exist" duration-ms="6080" started-at="2020-09-30T19:24:33 SGT" finished-at="2020-09-30T19:24:39 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_If_There_Is_MeetingRooms_Menu_Button_Exist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-09-30T19:24:39 SGT" finished-at="2020-09-30T19:24:39 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_If_There_Is_MeetingRooms_Menu_Button_Exist status=SUCCESS method=runTestMeetingRoomsPage.Test_If_There_Is_MeetingRooms_Menu_Button_Exist()[pri:1, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Test_If_Correct_URL_Destination_AND_PageElements_Exist()[pri:2, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_Correct_URL_Destination_AND_PageElements_Exist" duration-ms="9660" started-at="2020-09-30T19:24:39 SGT" finished-at="2020-09-30T19:24:49 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_If_Correct_URL_Destination_AND_PageElements_Exist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-30T19:24:49 SGT" finished-at="2020-09-30T19:24:49 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_If_Correct_URL_Destination_AND_PageElements_Exist status=SUCCESS method=runTestMeetingRoomsPage.Test_If_Correct_URL_Destination_AND_PageElements_Exist()[pri:2, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button()[pri:3, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button" duration-ms="2462" started-at="2020-09-30T19:24:49 SGT" finished-at="2020-09-30T19:24:51 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:51 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button status=SUCCESS method=runTestMeetingRoomsPage.Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button()[pri:3, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Test_If_Attempt_To_Login_Without_userData_Input()[pri:4, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_Attempt_To_Login_Without_userData_Input" duration-ms="136" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:51 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_If_Attempt_To_Login_Without_userData_Input -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:51 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_If_Attempt_To_Login_Without_userData_Input status=SUCCESS method=runTestMeetingRoomsPage.Test_If_Attempt_To_Login_Without_userData_Input()[pri:4, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="aftertest" is-config="true" duration-ms="603" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:52 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- MeetingRooms.runTestMeetingRoomsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

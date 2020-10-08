@@ -1,0 +1,62 @@
+{
+	"loginHomePage": [
+		{
+			"title": "Login To JetWebinar",
+			"csslocator": "div.login-content > h1"
+		},
+		{
+			"usernameInputfield_placeholder_text": "Username",
+			"csslocator": "#uname"
+		},
+		{
+			"passwordInputfield_placeholder_text": "Password",
+			"csslocator": "#pass"
+		},
+		{
+			"remember_me_label_text": "Remember me",
+			"csslocator": "#loginform > div:nth-child(3) > div.col-sm-4 > div > label",
+			"checkbox_cssLocator": "#loginform > div:nth-child(3) > div.col-sm-4 > div > label > span"
+		},
+		{
+			"forgotPassword_text": "Forgot Password?",
+			"csslocator": "#forget-password"
+		},
+		{
+			"SignInButton_name": "SIGN IN",
+			"csslocator": "#loginform > div:nth-child(3) > div.col-sm-8.text-right > button"
+		},
+		{
+			"footer_text": "JetWebinar 2020",
+			"csslocator": "div.login-footer > div > div.col-xs-7.bs-reset > div > p"
+		}
+	],
+	"login_scenarios": [
+		{
+			"username": "aldwinj@jetwebinar.com",
+			"password": "e4267660"
+		},
+		{
+			"incorrect_username": "aldwin@jetwebinar.com",
+			"incorrect_password": "123"
+		}
+	],
+	"Alert_Error_Text": [
+		{
+			"Error1": "Enter any username and password.",
+			"csslocator": "#login-alert > span"
+		},
+		{
+			"Error2":"Please provide a correct username and password.",
+			"csslocator": "#login-alert > span"
+		}
+	],
+	"DashboardPage": [
+		{
+			"expectedURLpage": "https://aldwinj.qa.jetwebinar.com/admin/dashboard"
+		},
+		{
+			"DashboardPanel_Title":"Dashboard",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li.start.active.tooltips > a > span"
+		}
+	]
+}

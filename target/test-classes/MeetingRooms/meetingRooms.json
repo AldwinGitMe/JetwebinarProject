@@ -1,0 +1,111 @@
+{
+	"MeetingRooms_Page": [
+		{
+			"MeetingRooms_Menu": "Meeting Rooms",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(8) > a"
+		},
+		{
+			"Page_URL": "/admin/meetings"
+		},
+		{
+			"Page_Title": "Meeting Rooms",
+			"csslocator": "#tour_allwebinars > div.portlet-title > div"
+		},
+		{
+			"Add_New_Button": "ADD NEW",
+			"csslocator": "#sample_editable_1_new"
+		},
+		{
+			"Search_Inputfield_Label": "Search:",
+			"csslocator": "#webinarlist_filter > label"
+		},
+		{
+			"Search_Inputfield": "Search Inputfield",
+			"csslocator": "#webinarlist_filter > label > input"
+		}
+	],
+	"Add_Meeting_Room": [
+		{
+			"Add_Meeting_Room_URL": "admin/meetings/add"
+		},
+		{
+			"Add_Meeting_Room_Title": "Add Meeting Room",
+			"csslocator": "#tour_attendees"
+		},
+		{
+			"Meeting_Room_Handle_Label": "Meeting Room Handle",
+			"": "#addfrm > div > div.form-group.form-md-line-input > label"
+		},
+		{
+			"MeetingRoom_Inputfield": "https://aldwinj.qa.jetwebinar.com/<Room Handle>",
+			"csslocator": "#room_code"
+		},
+		{
+			"Return_To_Meetings_Button": "RETURN TO MEETINGS",
+			"csslocator": "#sample_editable_1_new"
+		},
+		{
+			"ADD_MEETING_ROOM_Button": "ADD MEETING ROOM",
+			"csslocator": "#save"
+		}
+	],
+	"Login_Accounts": [
+		{
+			"username": "aldwinj@jetwebinar.com",
+			"password": "e4267660"
+		},
+		{
+			"username_inputifeld": "Username",
+			"csslocator": "#uname"
+		},
+		{
+			"password_inputfield": "Password",
+			"csslocator": "#pass"
+		},
+		{
+			"signin_button": "Sign In",
+			"csslocator": "#loginform > div:nth-child(3) > div.col-sm-8.text-right > button"
+		}
+	],
+	"Alert_Error_Text": [
+		{
+			"Error_Text1": "This field is required.",
+			"csslocator": "#room_code-error"
+		}
+	],
+	"User_Data": [
+		{
+			"Valid_Data": "MyMeetingRoom"
+		},
+		{
+			"Invalid_Data1": "My Meeting Room"
+		},
+		{
+			"Invalid_Data2": "My_Meeting_Room"
+		},
+		{
+			"Invalid_Data3": "My%Meeting%Room"
+		},
+		{
+			"Invalid_Data4": "My-Meeting-Room"
+		},
+		{
+			"Invalid_Data5": "My+Meeting+Room"
+		},
+		{
+			"Invalid_Data6": "My$Meeting$Room"
+		},
+		{
+			"Invalid_Data7": "My@Meeting@Room"
+		},
+		{
+			"Invalid_Data8": "My#Meeting#Room"
+		},
+		{
+			"Invalid_Data9": "My*Meeting*Room"
+		},
+		{
+			"Invalid_Data10": "My&Meeting&Room"
+		}
+	]
+}

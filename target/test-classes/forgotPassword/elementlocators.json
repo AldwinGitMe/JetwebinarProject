@@ -1,0 +1,27 @@
+{
+	"ForgotPassword": [
+		{
+			"Forgot_Password": "Forgot Password?",
+			"csslocator": "#forget-password"
+		},
+		{
+			"Forgot_Password_sub_Title": "Forgot Password ?",
+			"csslocator": "#forget-form > h3"
+		},
+		{
+			"Instruction_Text": "Enter your e-mail address below to reset your password.",
+			"csslocator": "#forget-form > p"
+		},
+		{
+			"Email_inputfield": "Email",
+			"csslocator": "#email"
+		},
+		{
+			"Back_button": "BACK",
+			"csslocator": "#back-btn"
+		},
+		{	"Submit_Button":"SUBMIT",
+			"csslocator":"button.btn.btn-success.uppercase.pull-right"
+		}
+	]
+}

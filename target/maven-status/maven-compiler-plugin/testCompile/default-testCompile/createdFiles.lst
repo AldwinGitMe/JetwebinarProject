@@ -1,0 +1,13 @@
+Login_Home_Page\LoginScenariosBackEnd.class
+Webinars\runTestWebinarSettingsUI.class
+Library\TakeShots.class
+forgotPassword\runTestforgotpasswordUI.class
+Webinars\AddNewWebinarSettingsBackEnd.class
+Login_Home_Page\runTestLoginHomePage.class
+TestAnalyzer\RerunFailedTests.class
+Webinars\runTestAddWebinarTemplate.class
+Webinars\AddNewWebinarBackEnd.class
+Login_Home_Page\LoginHomepageBackEnd.class
+Login_Home_Page\runTestLoginScenarios.class
+TestAnalyzer\transfromed.class
+forgotPassword\forgotPasswordPageBackend.class

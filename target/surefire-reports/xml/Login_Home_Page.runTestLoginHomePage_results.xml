@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login_Home_Page"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.123">
+  <properties />
+  
+  
+            <testcase name="Test_If_Username_Input_field_Exist" time="0.164" classname="Login_Home_Page.runTestLoginHomePage" />
+                <testcase name="Test_If_RememberMe_Exist_and_its_checkbox" time="0.192" classname="Login_Home_Page.runTestLoginHomePage" />
+                <testcase name="Test_If_Password_Input_field_Exist" time="0.128" classname="Login_Home_Page.runTestLoginHomePage" />
+                <testcase name="Test_If_Title_Exist" time="0.196" classname="Login_Home_Page.runTestLoginHomePage" />
+                <testcase name="Test_If_Footer_Text_Exist" time="0.105" classname="Login_Home_Page.runTestLoginHomePage" />
+                <testcase name="Test_If_SignIn_Button_Exist" time="0.170" classname="Login_Home_Page.runTestLoginHomePage" />
+                <testcase name="Test_If_ForgotPassword_LinkText_Exist" time="0.168" classname="Login_Home_Page.runTestLoginHomePage" />
+      
+</testsuite>
