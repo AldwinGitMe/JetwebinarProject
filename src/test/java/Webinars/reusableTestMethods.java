@@ -356,4 +356,17 @@ public class reusableTestMethods {
 			Assert.fail(" Element Is Still Present ");
 		}
 	}
+
+	// this is only for the instant replay webinar
+	// test that on the 3rd column called Broadcast - it does not have the button
+	// for the host
+	// only live webinar and simulated live webinar has it
+	public void checkifitHasNoStartLiveBroadcastbutton_On3rdColumn() {
+		List<WebElement> livewebinar = driver.findElements(By.xpath("//table[@id='webinarlist']/tbody/tr"));
+		int i = livewebinar.size();
+		int startlivebroadcastbutton = driver.findElements(By.xpath("//table[@id='webinarlist']/tbody/tr[" + i + "]/td[3]/a")).size();
+		if (startlivebroadcastbutton != 0) {
+			Assert.fail(i + " The Creatd Instant Replay webinar has a lie broadcast button on its 3rd column ");
+		}
+	}
 }
