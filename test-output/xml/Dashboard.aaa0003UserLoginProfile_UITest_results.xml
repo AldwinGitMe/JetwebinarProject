@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Dashboard"
+           tests="38"
+           failures="0"
+           errors="0"
+           skipped="38"
+           time="-32164114721.608">
+  <properties />
+  
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="aftertest" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="launchbrowser" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_username_is_Present_onToprightcorner" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Settings_icon_is_Present_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_When_Support_is_Clicked_Correct_URLDestination_and_CorrectPage_title" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Support_Menu_is_Present_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Support_Menu_is_CorrectTetxt_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Settings_Menu_is_Present_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_username_is_Enabled_onToprightcorner" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Logout_Menu_is_Enabled_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Settings_Menu_is_TextisCorrect_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Support_Menu_is_Enabled_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_When_Settings_is_Clicked_Correct_URLDestination_and_CorrectPage_title" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_When_LogOut_is_Clicked_Correct_URLDestination" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Logout_Icon_is_Present_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Support_Icon_is_Present_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Settings_Menu_is_Enabled_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_username_icon_is_Present" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Logout_Menu_is_CorrectText_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Logout_Menu_is_Present_when_username_is_clicked" time="0.0" classname="Dashboard.aaa0003UserLoginProfile_UITest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

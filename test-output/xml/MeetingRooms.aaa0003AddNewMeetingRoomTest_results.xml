@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MeetingRooms"
+           tests="44"
+           failures="0"
+           errors="0"
+           skipped="44"
+           time="-36988732218.258">
+  <properties />
+  
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="launchbrowser" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="aftertest" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_button__is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_AddNewMeeting_AddName_click_ReturMeetingbutton" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoomPageTitle_is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_ReturnToMeetings_button__is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoomPageTitle_Icon_is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Delete_the_justAddedMeeting" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddnewMeeting_enterAName" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_button__name_is_Correct" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_InputField__is_Enabled" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_InputField__is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_addNewMeeting_NoMeetingName_is_entered" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_button__is_Enabled" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_ReturnToMeetings_button_name_is_Correct" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_InputField_Label_is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_ReturnToMeetings_button_Icon_is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_button__icon_is_Present" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoomPageTitle_Text_is_Correct" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_InputField_Label_name_is_Correct" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_AddMeetingRoom_InputField__name_is_Correct" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_When_click_addNewbutton_Correct_URLdestination" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_ReturnToMeetings_button_is_Enabled" time="0.0" classname="MeetingRooms.aaa0003AddNewMeetingRoomTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

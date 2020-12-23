@@ -1,81 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42214" started-at="2020-09-30T19:24:10 SGT" finished-at="2020-09-30T19:24:52 SGT">
+  <suite started-at="2020-12-23T18:24:48 SGT" name="Default suite" finished-at="2020-12-23T18:32:24 SGT" duration-ms="456515">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42214" started-at="2020-09-30T19:24:10 SGT" finished-at="2020-09-30T19:24:52 SGT">
-      <class name="MeetingRooms.runTestMeetingRoomsPage">
-        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="launchbrowser" is-config="true" duration-ms="23233" started-at="2020-09-30T19:24:10 SGT" finished-at="2020-09-30T19:24:33 SGT">
+    <test started-at="2020-12-23T18:24:48 SGT" name="Default test" finished-at="2020-12-23T18:32:24 SGT" duration-ms="456515">
+      <class name="Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:24:48 SGT" name="launchbrowser" finished-at="2020-12-23T18:27:26 SGT" duration-ms="158739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchbrowser -->
-        <test-method status="PASS" signature="Test_If_There_Is_MeetingRooms_Menu_Button_Exist()[pri:1, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_There_Is_MeetingRooms_Menu_Button_Exist" duration-ms="6080" started-at="2020-09-30T19:24:33 SGT" finished-at="2020-09-30T19:24:39 SGT">
+        <test-method signature="Test_If_AddNew_SimulatedLiveWebinar_When_Selecting_RunHourly_SetWeekdayTime_and_AddAnotherTime_Elements_Emerges()[pri:1, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:27:26 SGT" name="Test_If_AddNew_SimulatedLiveWebinar_When_Selecting_RunHourly_SetWeekdayTime_and_AddAnotherTime_Elements_Emerges" finished-at="2020-12-23T18:28:14 SGT" duration-ms="47824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_If_There_Is_MeetingRooms_Menu_Button_Exist -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-09-30T19:24:39 SGT" finished-at="2020-09-30T19:24:39 SGT">
+        </test-method> <!-- Test_If_AddNew_SimulatedLiveWebinar_When_Selecting_RunHourly_SetWeekdayTime_and_AddAnotherTime_Elements_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:14 SGT" name="tearDown" finished-at="2020-12-23T18:28:14 SGT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_If_There_Is_MeetingRooms_Menu_Button_Exist status=SUCCESS method=runTestMeetingRoomsPage.Test_If_There_Is_MeetingRooms_Menu_Button_Exist()[pri:1, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+                <![CDATA[[TestResult name=Test_If_AddNew_SimulatedLiveWebinar_When_Selecting_RunHourly_SetWeekdayTime_and_AddAnotherTime_Elements_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_If_AddNew_SimulatedLiveWebinar_When_Selecting_RunHourly_SetWeekdayTime_and_AddAnotherTime_Elements_Emerges()[pri:1, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Test_If_Correct_URL_Destination_AND_PageElements_Exist()[pri:2, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_Correct_URL_Destination_AND_PageElements_Exist" duration-ms="9660" started-at="2020-09-30T19:24:39 SGT" finished-at="2020-09-30T19:24:49 SGT">
+        <test-method signature="Test_ChooseaWeekDay_SelectionMenu_Has_Submenus()[pri:2, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:14 SGT" name="Test_ChooseaWeekDay_SelectionMenu_Has_Submenus" finished-at="2020-12-23T18:28:18 SGT" duration-ms="3615" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_If_Correct_URL_Destination_AND_PageElements_Exist -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-30T19:24:49 SGT" finished-at="2020-09-30T19:24:49 SGT">
+        </test-method> <!-- Test_ChooseaWeekDay_SelectionMenu_Has_Submenus -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:18 SGT" name="tearDown" finished-at="2020-12-23T18:28:18 SGT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_If_Correct_URL_Destination_AND_PageElements_Exist status=SUCCESS method=runTestMeetingRoomsPage.Test_If_Correct_URL_Destination_AND_PageElements_Exist()[pri:2, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+                <![CDATA[[TestResult name=Test_ChooseaWeekDay_SelectionMenu_Has_Submenus status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_ChooseaWeekDay_SelectionMenu_Has_Submenus()[pri:2, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button()[pri:3, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button" duration-ms="2462" started-at="2020-09-30T19:24:49 SGT" finished-at="2020-09-30T19:24:51 SGT">
+        <test-method signature="Test_When_host_SelectDay_Sunday_SetTimeInputfield_With_Closebutton_Emerges()[pri:3, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:18 SGT" name="Test_When_host_SelectDay_Sunday_SetTimeInputfield_With_Closebutton_Emerges" finished-at="2020-12-23T18:28:21 SGT" duration-ms="2837" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:51 SGT">
+        </test-method> <!-- Test_When_host_SelectDay_Sunday_SetTimeInputfield_With_Closebutton_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:21 SGT" name="tearDown" finished-at="2020-12-23T18:28:21 SGT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button status=SUCCESS method=runTestMeetingRoomsPage.Test_If_Correct_URL_Destination_When_Clicked_ADDNEW_Button()[pri:3, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+                <![CDATA[[TestResult name=Test_When_host_SelectDay_Sunday_SetTimeInputfield_With_Closebutton_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_When_host_SelectDay_Sunday_SetTimeInputfield_With_Closebutton_Emerges()[pri:3, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="Test_If_Attempt_To_Login_Without_userData_Input()[pri:4, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="Test_If_Attempt_To_Login_Without_userData_Input" duration-ms="136" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:51 SGT">
+        <test-method signature="Test_When_host_SelectDay_Monday_SetTimeInputfield_With_Closebutton_Emerges()[pri:4, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:21 SGT" name="Test_When_host_SelectDay_Monday_SetTimeInputfield_With_Closebutton_Emerges" finished-at="2020-12-23T18:28:23 SGT" duration-ms="2690" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_If_Attempt_To_Login_Without_userData_Input -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:51 SGT">
+        </test-method> <!-- Test_When_host_SelectDay_Monday_SetTimeInputfield_With_Closebutton_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:23 SGT" name="tearDown" finished-at="2020-12-23T18:28:23 SGT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Test_If_Attempt_To_Login_Without_userData_Input status=SUCCESS method=runTestMeetingRoomsPage.Test_If_Attempt_To_Login_Without_userData_Input()[pri:4, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39] output={null}]]]>
+                <![CDATA[[TestResult name=Test_When_host_SelectDay_Monday_SetTimeInputfield_With_Closebutton_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_When_host_SelectDay_Monday_SetTimeInputfield_With_Closebutton_Emerges()[pri:4, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:MeetingRooms.runTestMeetingRoomsPage@587d1d39]" name="aftertest" is-config="true" duration-ms="603" started-at="2020-09-30T19:24:51 SGT" finished-at="2020-09-30T19:24:52 SGT">
+        <test-method signature="Test_When_host_SelectDay_Tuesday_SetTimeInputfield_With_Closebutton_Emerges()[pri:5, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:23 SGT" name="Test_When_host_SelectDay_Tuesday_SetTimeInputfield_With_Closebutton_Emerges" finished-at="2020-12-23T18:28:26 SGT" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_When_host_SelectDay_Tuesday_SetTimeInputfield_With_Closebutton_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:26 SGT" name="tearDown" finished-at="2020-12-23T18:28:26 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_When_host_SelectDay_Tuesday_SetTimeInputfield_With_Closebutton_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_When_host_SelectDay_Tuesday_SetTimeInputfield_With_Closebutton_Emerges()[pri:5, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_When_host_SelectDay_Wednesday_SetTimeInputfield_With_Closebutton_Emerges()[pri:6, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:26 SGT" name="Test_When_host_SelectDay_Wednesday_SetTimeInputfield_With_Closebutton_Emerges" finished-at="2020-12-23T18:28:29 SGT" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_When_host_SelectDay_Wednesday_SetTimeInputfield_With_Closebutton_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:29 SGT" name="tearDown" finished-at="2020-12-23T18:28:29 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_When_host_SelectDay_Wednesday_SetTimeInputfield_With_Closebutton_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_When_host_SelectDay_Wednesday_SetTimeInputfield_With_Closebutton_Emerges()[pri:6, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_When_host_SelectDay_Thursday_SetTimeInputfield_With_Closebutton_Emerges()[pri:7, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:29 SGT" name="Test_When_host_SelectDay_Thursday_SetTimeInputfield_With_Closebutton_Emerges" finished-at="2020-12-23T18:28:31 SGT" duration-ms="2547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_When_host_SelectDay_Thursday_SetTimeInputfield_With_Closebutton_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:31 SGT" name="tearDown" finished-at="2020-12-23T18:28:31 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_When_host_SelectDay_Thursday_SetTimeInputfield_With_Closebutton_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_When_host_SelectDay_Thursday_SetTimeInputfield_With_Closebutton_Emerges()[pri:7, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_When_host_SelectDay_Friday_SetTimeInputfield_With_Closebutton_Emerges()[pri:8, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:31 SGT" name="Test_When_host_SelectDay_Friday_SetTimeInputfield_With_Closebutton_Emerges" finished-at="2020-12-23T18:28:34 SGT" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_When_host_SelectDay_Friday_SetTimeInputfield_With_Closebutton_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:34 SGT" name="tearDown" finished-at="2020-12-23T18:28:34 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_When_host_SelectDay_Friday_SetTimeInputfield_With_Closebutton_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_When_host_SelectDay_Friday_SetTimeInputfield_With_Closebutton_Emerges()[pri:8, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_When_host_SelectDay_Saturday_SetTimeInputfield_With_Closebutton_Emerges()[pri:9, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:34 SGT" name="Test_When_host_SelectDay_Saturday_SetTimeInputfield_With_Closebutton_Emerges" finished-at="2020-12-23T18:28:36 SGT" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_When_host_SelectDay_Saturday_SetTimeInputfield_With_Closebutton_Emerges -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:36 SGT" name="tearDown" finished-at="2020-12-23T18:28:36 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_When_host_SelectDay_Saturday_SetTimeInputfield_With_Closebutton_Emerges status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_When_host_SelectDay_Saturday_SetTimeInputfield_With_Closebutton_Emerges()[pri:9, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_Adding_Multiple_SeTimerPerDay_OnSaturday()[pri:10, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:28:36 SGT" name="Test_Adding_Multiple_SeTimerPerDay_OnSaturday" finished-at="2020-12-23T18:29:07 SGT" duration-ms="30333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding_Multiple_SeTimerPerDay_OnSaturday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:29:07 SGT" name="tearDown" finished-at="2020-12-23T18:29:07 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Adding_Multiple_SeTimerPerDay_OnSaturday status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_Adding_Multiple_SeTimerPerDay_OnSaturday()[pri:10, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_Adding_Multiple_SeTimerPerDay_OnSunday()[pri:11, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:29:07 SGT" name="Test_Adding_Multiple_SeTimerPerDay_OnSunday" finished-at="2020-12-23T18:29:40 SGT" duration-ms="33003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding_Multiple_SeTimerPerDay_OnSunday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:29:40 SGT" name="tearDown" finished-at="2020-12-23T18:29:40 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Adding_Multiple_SeTimerPerDay_OnSunday status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_Adding_Multiple_SeTimerPerDay_OnSunday()[pri:11, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_Adding_Multiple_SeTimerPerDay_OnMonday()[pri:12, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:29:40 SGT" name="Test_Adding_Multiple_SeTimerPerDay_OnMonday" finished-at="2020-12-23T18:30:13 SGT" duration-ms="33191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding_Multiple_SeTimerPerDay_OnMonday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:30:13 SGT" name="tearDown" finished-at="2020-12-23T18:30:13 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Adding_Multiple_SeTimerPerDay_OnMonday status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_Adding_Multiple_SeTimerPerDay_OnMonday()[pri:12, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_Adding_Multiple_SeTimerPerDay_OnTuesday()[pri:13, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:30:13 SGT" name="Test_Adding_Multiple_SeTimerPerDay_OnTuesday" finished-at="2020-12-23T18:30:46 SGT" duration-ms="32844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding_Multiple_SeTimerPerDay_OnTuesday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:30:46 SGT" name="tearDown" finished-at="2020-12-23T18:30:46 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Adding_Multiple_SeTimerPerDay_OnTuesday status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_Adding_Multiple_SeTimerPerDay_OnTuesday()[pri:13, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_Adding_Multiple_SeTimerPerDay_OnWednesday()[pri:14, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:30:46 SGT" name="Test_Adding_Multiple_SeTimerPerDay_OnWednesday" finished-at="2020-12-23T18:31:18 SGT" duration-ms="32577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding_Multiple_SeTimerPerDay_OnWednesday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:31:18 SGT" name="tearDown" finished-at="2020-12-23T18:31:18 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Adding_Multiple_SeTimerPerDay_OnWednesday status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_Adding_Multiple_SeTimerPerDay_OnWednesday()[pri:14, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_Adding_Multiple_SeTimerPerDay_OnThrusday()[pri:15, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:31:18 SGT" name="Test_Adding_Multiple_SeTimerPerDay_OnThrusday" finished-at="2020-12-23T18:31:51 SGT" duration-ms="32616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding_Multiple_SeTimerPerDay_OnThrusday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:31:51 SGT" name="tearDown" finished-at="2020-12-23T18:31:51 SGT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Adding_Multiple_SeTimerPerDay_OnThrusday status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_Adding_Multiple_SeTimerPerDay_OnThrusday()[pri:15, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Test_Adding_Multiple_SeTimerPerDay_OnFriday()[pri:16, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:31:51 SGT" name="Test_Adding_Multiple_SeTimerPerDay_OnFriday" finished-at="2020-12-23T18:32:23 SGT" duration-ms="32584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Adding_Multiple_SeTimerPerDay_OnFriday -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:32:23 SGT" name="tearDown" finished-at="2020-12-23T18:32:23 SGT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Adding_Multiple_SeTimerPerDay_OnFriday status=SUCCESS method=aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring.Test_Adding_Multiple_SeTimerPerDay_OnFriday()[pri:16, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring@120f102b]" started-at="2020-12-23T18:32:23 SGT" name="aftertest" finished-at="2020-12-23T18:32:24 SGT" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- MeetingRooms.runTestMeetingRoomsPage -->
+      </class> <!-- Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

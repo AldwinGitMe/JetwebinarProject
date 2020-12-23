@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MeetingRooms"
+           tests="20"
+           failures="0"
+           errors="0"
+           skipped="20"
+           time="-17690263235.698">
+  <properties />
+  
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="launchbrowser" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="aftertest" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_JoinRoomNow_Button_Is_Enabled" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_Has_JoinRoomNow_Button" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_InstructionText_Is_Correct" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_When_JoinRoomNow_Button_Is_Clicked_ConfirmationDialog_Will_Be_Closed" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_Has_InstructionText" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_Popup_At_Host_WebinarRoom_When_Launch" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_Has_Title" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_Has_Title_Is_Correct" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_ConfirmationDialog_JoinRoomNow_Button_Has_Name_And_Correct" time="0.0" classname="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

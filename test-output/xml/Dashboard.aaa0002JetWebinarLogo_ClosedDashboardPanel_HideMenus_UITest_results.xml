@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Dashboard"
+           tests="60"
+           failures="0"
+           errors="0"
+           skipped="60"
+           time="-49854377811.794">
+  <properties />
+  
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="launchbrowser" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="aftertest" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_SubmitSupportTicketicon_menu_shows_checkSubmitSupportTicket" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_Affiliatesicon_menu_shows_checkAffiliates" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_VideoTutorialsicon_menu_shows_checkVideoTutorials" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_MessageCentericon_menu_shows_checkMessageCenter" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_Mediaicon_menu_shows_checkMedia" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_MeetingRoomsicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_SubmitSupportTicketicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Hamburgerbutton_is_Enabled" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_Documentationicon_menu_shows_checkDocumentation" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_whenMouseisHover_to_Webinars_submenu_shows_checkAddwebinars" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Mediaicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_VideoTutorialsicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_Attendeesicon_menu_shows_checkAttendees" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Attendeesicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Settingsicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_MeetingRoomssicon_menu_shows_checkMeetingRooms" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Documentationicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_Subscriptionicon_menu_shows_checkSubscription" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Only_Home_Icon_is_Visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Only_Webinars_Icon_is_Visible_While__Webinarsmenu_is_Hidden" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_JetWebinar_Logo_is_Present" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_Settingsicon_menu_shows_checkSettings" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_whenMouseisHover_to_Webinars_submenu_shows_checkAllwebinars" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Hamburgerbutton_is_Present" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Subscriptionicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_MessageCentericon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Affiliatesicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_whenMouseisHover_to_Usersicon_menu_shows_checkUsers" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Usersicon_is_visible" time="0.0" classname="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

@@ -1,6 +1,10 @@
 {
 	"ForgotPassword": [
 		{
+			"title": "Login To JetWebinar",
+			"csslocator": "div.login-content > h1"
+		},
+		{
 			"Forgot_Password": "Forgot Password?",
 			"csslocator": "#forget-password"
 		},
@@ -22,6 +26,9 @@
 		},
 		{	"Submit_Button":"SUBMIT",
 			"csslocator":"button.btn.btn-success.uppercase.pull-right"
+		},
+		{
+			"Test_URL":"https://aldwinjuma.qa.jetwebinar.com/"
 		}
 	]
 }

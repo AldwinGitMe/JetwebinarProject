@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Webinars</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Webinars</h1>
+<p>
+  Test duration: -125440047902.745s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">Webinars.add0001_AddNewWebinarPageTestUI</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  launchbrowser
+      </td>
+  <td class="duration">
+    5.673s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"Chrome"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.SessionNotCreatedException: session not created<br/>
+from chrome not reachable<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: driver.version: ChromeDriver<br/>
+remote stacktrace: Backtrace:<br/>
+	Ordinal0 [0x0057C0C3+3326147]<br/>
+	Ordinal0 [0x00460851+2164817]<br/>
+	Ordinal0 [0x002E7140+618816]<br/>
+	Ordinal0 [0x002DD404+578564]<br/>
+	Ordinal0 [0x002DDACB+580299]<br/>
+	Ordinal0 [0x002DED35+585013]<br/>
+	Ordinal0 [0x002D9D61+564577]<br/>
+	Ordinal0 [0x002E82C0+623296]<br/>
+	Ordinal0 [0x00286BDD+224221]<br/>
+	Ordinal0 [0x00285CAC+220332]<br/>
+	Ordinal0 [0x0028189B+202907]<br/>
+	Ordinal0 [0x00263DF4+81396]<br/>
+	Ordinal0 [0x00264DEE+85486]<br/>
+	Ordinal0 [0x00264D79+85369]<br/>
+	Ordinal0 [0x004785DC+2262492]<br/>
+	GetHandleVerifier [0x00702874+1487204]<br/>
+	GetHandleVerifier [0x007023CD+1486013]<br/>
+	GetHandleVerifier [0x0070A368+1518680]<br/>
+	GetHandleVerifier [0x00702F4E+1488958]<br/>
+	Ordinal0 [0x0046ED0D+2223373]<br/>
+	Ordinal0 [0x0047A12B+2269483]<br/>
+	Ordinal0 [0x0047A26F+2269807]<br/>
+	Ordinal0 [0x0048ECB8+2354360]<br/>
+	BaseThreadInitThunk [0x75260419+25]<br/>
+	RtlGetAppContainerNamedObjectPath [0x776074ED+237]<br/>
+	RtlGetAppContainerNamedObjectPath [0x776074BD+189]<br/>
+</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)<br />
+              org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)<br />
+              java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)<br />
+              java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)<br />
+              java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)<br />
+              java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)<br />
+              java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)<br />
+              java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)<br />
+              java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)<br />
+              java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)<br />
+              java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)<br />
+              org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)<br />
+              org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)<br />
+              Webinars.add0001_AddNewWebinarPageTestUI.launchbrowser(add0001_AddNewWebinarPageTestUI.java:55)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)<br />
+              org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)<br />
+              org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:617)<br />
+              org.testng.TestRunner.beforeRun(TestRunner.java:607)<br />
+              org.testng.TestRunner.run(TestRunner.java:578)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">Webinars.add0001_AddNewWebinarPageTestUI</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  aftertest
+      </td>
+  <td class="duration">
+    -1608205742.591s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.397s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.256s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.352s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.243s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.315s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.423s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.250s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.253s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.420s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.391s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.331s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.586s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.415s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.483s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.529s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.469s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.372s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.560s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.334s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.520s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.508s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.540s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.375s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.260s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.451s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.345s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.266s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.512s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.486s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.236s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.552s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.378s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.381s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.394s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.440s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.427s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.365s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.446s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.246s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.363s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.480s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.493s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.384s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.401s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.368s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.277s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.504s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.431s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.498s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.544s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.571s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.356s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.360s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.567s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.524s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.388s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.239s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.282s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.590s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.535s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.263s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.460s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.556s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.548s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.412s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.516s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.575s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.436s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.476s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.274s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.405s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.409s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.472s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.465s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.270s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.319s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    -1608205742.311s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">Webinars.add0001_AddNewWebinarPageTestUI</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Test_If_AccordionTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_AccordionTitle_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_AddWebinar_Is_Click_It_WillGo_To_AddWebinarPage
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_AdelineTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_AdelineTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_AdelineTemplate_IsPresent
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_AdelineTemplate_TemplatTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_AdelineTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_BelmontTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_BelmontTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_BelmontTemplate_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_BelmontTemplate_TemplateTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_BelmontTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ChicagoTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ChicagoTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ChicagoTemplate_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ChicagoTemplate_TemplateTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ChicagoTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ClarkTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ClarkTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ClarkTemplate_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ClarkTemplate_TemplateTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_ClarkTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_LagunaTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_LagunaTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_LagunaTemplate_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_LagunaTemplate_TemplateTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_LagunaTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_MesaTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_MesaTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_MesaTemplate_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_MesaTemplate_TemplateTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_MesaTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_NexGenTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_NexGenTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_NexGenTemplate_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_NexGenTemplate_TemplateTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_NexGenTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_OakTemplate_Has_TemplateTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_OakTemplate_Has_subTitle
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_OakTemplate_Is_Present
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_OakTemplate_TemplateTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_OakTemplate_subTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_PageTitle_Is_Correct
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_PageTitle_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEADELINE_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEADELINE_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEADELINE_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEADELINE_button_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEBELMONT_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEBELMONT_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEBELMONT_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEBELMONT_button_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECHICAGO_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECHICAGO_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECHICAGO_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECHICAGO_button_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECLARK_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECLARK_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECLARK_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USECLARK_button_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USELAGUNA_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USELAGUNA_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USELAGUNA_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USELAGUNA_button_Is_Present
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEMESA_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEMESA_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEMESA_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEMESA_button_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USENEXGEN_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USENEXGEN_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USENEXGEN_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USENEXGEN_button_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEOAK_button_Has_IconBeside
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEOAK_button_Has_Name
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEOAK_button_Is_Enabled
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_If_USEOAK_button_Is_Present
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  
+</body>
+</html>

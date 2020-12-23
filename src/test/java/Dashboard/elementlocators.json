@@ -1,0 +1,241 @@
+{
+	"userLogin": [
+		{
+			"username": "aldwinjumaoas@gmail.com",
+			"password": "12345"
+		},
+		{
+			"usernameInputfield_placeholder_text": "Username",
+			"csslocator": "#uname"
+		},
+		{
+			"passwordInputfield_placeholder_text": "Password",
+			"csslocator": "#pass"
+		},
+		{
+			"SignInButton_name": "SIGN IN",
+			"csslocator": "#loginform > div:nth-child(3) > div.col-sm-8.text-right > button"
+		}
+	],
+	"Menus": [
+		{
+			"Dashboard_Title_Panel": "Dashboard",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li.start.active.tooltips > a",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li.start.active.tooltips > a > span"
+		},
+		{
+			"Dashboard_Title_icon": "icon-home",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li.start.active.tooltips > a > i"
+		},
+		{
+			"Dashboard_Panel_SubTitle": "WEBINAR FUNNELS",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(2) > h3"
+		},
+		{
+			"Webinars": "Webinars",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(3) > a",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(3) > a > span.title"
+		},
+		{
+			"Webinars_icon": "icon-camcorder",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(3) > a > i"
+		},
+		{
+			"All_Webinars": "All Webinars",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li.open > ul > li:nth-child(1) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(3) > ul > li:nth-child(1)",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Add_Webinar": "Add Webinar",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li.open > ul > li:nth-child(2) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(3) > ul > li:nth-child(2)",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Message_Center": "Message Center",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(4) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(4)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(4) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Message_Center_icon": "icon-bubbles",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(4) > a > i"
+		},
+		{
+			"Attendees": "Attendees",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(5) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(5)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(5) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Attendees_icon": "icon-users",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(5) > a > i"
+		},
+		{
+			"Affiliates": "Affiliates",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(6) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(6)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(6) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Affiliates_icon": "icon-globe",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(6) > a > i"
+		},
+		{
+			"Meetings": "MEETINGS",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(7) > h3"
+		},
+		{
+			"Meeting_Rooms": "Meeting Rooms",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(8) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(8)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(8) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Meeting_Rooms_icon": "icon-camcorder",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(8) > a > i"
+		},
+		{
+			"Video_Assets": "VIDEO ASSETS",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(9) > h3"
+		},
+		{
+			"Media": "Media",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(10) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(10)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(10) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Media_icon": "fa fa-file-video-o",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(10) > a > i"
+		},
+		{
+			"My_Account": "MY ACCOUNT",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(11) > h3"
+		},
+		{
+			"Users": "Users",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(12) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(12)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(12) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Users_icon": "icon-users",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(12) > a > i"
+		},
+		{
+			"Settings": "Settings",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(13) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(13)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(13) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Settings_icon": "icon-settings",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(13) > a > i"
+		},
+		{
+			"Subscription": "Subscription",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(14) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(14)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(14) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Subscription_icon": "icon-refresh",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(14) > a",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(14) > a > i"
+		},
+		{
+			"Support": "SUPPORT",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(15) > h3"
+		},
+		{
+			"Video_Tutorials": "Video Tutorials",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(16) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(16)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(16) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Video_Tutorials_icon": "icon-support",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(16) > a > i"
+		},
+		{
+			"Documentation": "Documentation",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(17) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(17)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(17) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Documentation_icon": "icon-support",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(17) > a > i"
+		},
+		{
+			"Submit_Support_Ticket": "Submit Support Ticket",
+			"linkcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(18) > a",
+			"listcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(18)",
+			"textcsslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(18) > a > span",
+			"aria-describedby": "tooltip"
+		},
+		{
+			"Submit_Support_Ticket_icon": "icon-support",
+			"csslocator": "#main > div.page-sidebar-wrapper > div > ul > li:nth-child(18) > a > i"
+		}
+	],
+	"DashboardPanel_Closed_Open": [
+		{
+			"Hamburger_button": "no name",
+			"csslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-logo > div"
+		}
+	],
+	"JetWebinar_Logo": [
+		{
+			"JetWebinarLogo": "/assets/images/jw-flat-logo.png",
+			"csslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-logo > a > img"
+		}
+	],
+	"User_Login_Profile": [
+		{
+			"User_name": "",
+			"linkcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark > a",
+			"Iconcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark > a > span > span",
+			"iconName": "glyphicon glyphicon-home"
+		},
+		{
+			"Settings": "Settings",
+			"linkcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark.open > ul > li:nth-child(1) > a",
+			"Iconcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark.open > ul > li:nth-child(1) > a > i",
+			"iconName": "icon-settings",
+			"url_destination": "/admin/settings",
+			"page_title": "#tour_attendees"
+		},
+		{
+			"Support": "Support",
+			"linkcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark.open > ul > li:nth-child(2) > a",
+			"Iconcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark.open > ul > li:nth-child(2) > a > i",
+			"iconName": "icon-support",
+			"url_destination": "/admin/support",
+			"page_title": "#tour_attendees"
+		},
+		{
+			"Logout": "Log Out",
+			"linkcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark.open > ul > li:nth-child(4) > a",
+			"Iconcsslocator": "body > div.page-header.navbar.navbar-fixed-top > div > div.page-top > div > ul > li.dropdown.dropdown-user.dropdown-dark.open > ul > li:nth-child(4) > a > i",
+			"iconName": "icon-logout",
+			"page_title": "div.login-content > h1",
+			"title": "Login To JetWebinar"
+		},
+		{
+			"Test_URL": "https://aldwinjuma.qa.jetwebinar.com/"
+		}
+	]
+}

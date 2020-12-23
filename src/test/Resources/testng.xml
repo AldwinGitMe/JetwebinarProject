@@ -1,40 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name="ReportNG" verbose="1">
+<suite name="TestSuites">
 	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
 		<listener class-name="TestAnalyzer.transfromed" />
 	</listeners>
 	<test name="Login_Home_Page">
+		<parameter name="browser" value="Chrome" />
 		<classes>
-			<class name="Login_Home_Page.runTestLoginHomePage" />
-			<class name="Login_Home_Page.LoginHomepageBackEnd" />
-			<class name="Login_Home_Page.runTestLoginScenarios" />
-			<class name="Login_Home_Page.LoginScenariosBackEnd" />
+			<class name="Login_Home_Page.aaa0001loginPageUITest" />
+			<class name="Login_Home_Page.aaa0002loginTestScenarios" />
+			<class name="Login_Home_Page.reusableTestMethods" />
 		</classes>
 	</test>
 	<test name="forgotPassword">
+		<parameter name="browser" value="Chrome" />
 		<classes>
-			<class name="forgotPassword.runTestforgotpasswordUI" />
-			<class name="forgotPassword.forgotPasswordPageBackend" />
+			<class name="forgotPassword.aaa0001forgotPasswordUITest" />
+			<class name="forgotPassword.reusableTestMethods" />
+		</classes>
+	</test>
+	<test name="Dashboard">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="Dashboard.aaa0001dashboardMenuUITest" />
+			<class
+				name="Dashboard.aaa0002JetWebinarLogo_ClosedDashboardPanel_HideMenus_UITest" />
+			<class name="Dashboard.aaa0003UserLoginProfile_UITest" />
+			<class name="Dashboard.reusableTestMethods" />
 		</classes>
 	</test>
 	<test name="Webinars">
+		<parameter name="browser" value="Chrome" />
 		<classes>
-			<class name="Webinars.runTestAddWebinarTemplate" />
-			<class name="Webinars.AddNewWebinarBackEnd" />
-			<class name="Webinars.runTestAddWebinarTemplate" />
-			<class name="Webinars.AddNewWebinarSettingsBackEnd" />
-			<class name="Webinars.runTestAddNewWebinarpageAlertErrorsText" />
-			<class name="Webinars.AddNewWebinarPageAlertErrorsBackEnd" />
+			<class name="Webinars.aaa0001_AddNewWebinarPageTestUI" />
+			<class name="Webinars.aaa0002_AddNewWebinarAdelineTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0003AddNewWebinarMesaTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0004AddNewWebinarBelmontTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0005AddNewWebinarOakTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0006AddNewWebinarNexGenTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0007AddNewWebinarChicagoTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0008AddNewWebinarClarkTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0009AddNewWebinarLagunaTemplateWebinarSettingsUI" />
+			<class name="Webinars.aaa0010AddNewWebinarAdelineTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0011AddNewWebinarMesaTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0012AddNewWebinarBelmontTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0013AddNewWebinarOakTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0014AddNewWebinarNexGenTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0015AddNewWebinarChicagoTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0016AddNewWebinarClarkTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0017AddNewWebinarLagunaTemplateInputErrorScenarios" />
+			<class name="Webinars.aaa0018AddNewAdelineTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0019AddNewMesaTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0020AddNewBelmontTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0021AddNewOakTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0022AddNewNexgenTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0023AddNewChicagoTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0024AddNewClarkTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0025AddNewLagunaTemplate_LiveWebinar_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0026AddNewAdelineTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0027AddNewMesaTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0028AddNewBelmontTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0029AddNewOakTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0030AddNewNexgenTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0031AddNewChicagoTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0032AddNewClarkTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0033AddNewLagunaTemplate_SimulatedLiveWebinar_RunOnce_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0034AddNewAdelineTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0035AddNewMesaTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0036AddNewBelmontTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0037AddNewOakTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0038AddNewNexgenTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0039AddNewChicagoTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0040AddNewClarkTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0041AddNewLagunaTemplate_SimulatedLiveWebinar_RunHourly_GoesTo_AllWebinarsPage" />
+			<class name="Webinars.aaa0042AddNewWebinarAdelineTemplate_SimulatedLiveWebinar_RunRecurring" />
+			<class name="Webinars.aaa0043AddNewWebinarMesaTemplate_SimulatedLiveWebinar_RunRecurring" />
+			<class name="Webinars.aaa0044AddNewWebinarBelmontTemplate_SimulatedLiveWebinar_RunRecurring" />
+			<class name="Webinars.aaa0045AddNewWebinarOakTemplate_SimulatedLiveWebinar_RunRecurring" />
+			<class name="Webinars.aaa0046AddNewWebinarNexgenTemplate_SimulatedLiveWebinar_RunRecurring" />
+			<class name="Webinars.aaa0047AddNewWebinarChicagoTemplate_SimulatedLiveWebinar_RunRecurring" />
+			<class name="Webinars.aaa0048AddNewWebinarClarkTemplate_SimulatedLiveWebinar_RunRecurring" />
+			<class name="Webinars.aaa0049AddNewWebinarLagunaTemplate_SimulatedLiveWebinar_RunRecurring" />
 		</classes>
 	</test>
 		<test name="MeetingRooms">
+		<parameter name="browser" value="Chrome" />
 		<classes>
-			<class name="MeetingRooms.runTestMeetingRoomsPage" />
-			<class name="MeetingRooms.meetingRoomsBackEnd" />
+			<class name="MeetingRooms.aaa0001meetingRoomsUITest" />
+			<class name="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest" />
+			<class name="MeetingRooms.aaa0003AddNewMeetingRoomTest" />
+			<class name="MeetingRooms.aaa0004HostWebinarRoomConfirmationDialogTest" />
+			<class name="MeetingRooms.aaa0005HostWebinarRoom_Logo_BroadcastPortlet_ConferenceInfoTestUI" />
+			<class name="MeetingRooms.aaa0006HostMeetingRoomToolBodyTestUI" />
+			<class name="MeetingRooms.aaa0007HostWebinarRoomCurrentAttendeeslist_AND_GlobalChatTestUI" />
+			<class name="MeetingRooms.reusableTestMethods" />
 		</classes>
 	</test>
 </suite>

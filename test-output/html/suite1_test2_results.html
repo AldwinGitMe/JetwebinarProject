@@ -12,7 +12,7 @@
 <body>
 <h1>forgotPassword</h1>
 <p>
-  Test duration: 62.417s
+  Test duration: 165.292s
 </p>
 
 
@@ -20,70 +20,629 @@
   <table class="resultsTable">
     <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">forgotPassword.runTestforgotpasswordUI</td>
+        <td colspan="3" class="group">forgotPassword.aaa0001forgotPasswordUITest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  Testforgotpasswordsubtitle
+                  Test_if_BackButton_Name_is_Correct
       </td>
   <td class="duration">
-    10.057s
+    0.006s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementNotInteractableException: element not interactable<br/>
-&nbsp; (Session info: chrome=85.0.4183.121)<br/>
-Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;<br/>
-System info: host: &apos;LAPTOP-ESEL78H9&apos;, ip: &apos;192.168.254.169&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.2&apos;<br/>
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
 Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\aldwin\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:3905}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 07046268d950cb7877204d64ba6ab888</b></a><br />
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=#back-btn}</b></a><br />
     <div class="stackTrace" id="exception-0">
-              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)<br />
               java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
               java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
               java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)<br />
-              org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)<br />
-              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
               org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)<br />
-              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)<br />
-              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)<br />
-              forgotPassword.forgotPasswordPageBackend.click_button_linktext(forgotPasswordPageBackend.java:42)<br />
-              forgotPassword.forgotPasswordPageBackend.ClickForgotPassword_And_Verify(forgotPasswordPageBackend.java:103)<br />
-              forgotPassword.runTestforgotpasswordUI.Testforgotpasswordsubtitle(runTestforgotpasswordUI.java:93)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.isText_Label_Name_correct(reusableTestMethods.java:54)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_BackButton_Name_is_Correct(aaa0001forgotPasswordUITest.java:228)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:567)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)<br />
-              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)<br />
-              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
               org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
-              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)<br />
-              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
               org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
               org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1540)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:766)<br />
-              org.testng.TestRunner.run(TestRunner.java:587)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
               org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
               org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
               org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
               org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
               org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
               org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1109)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1039)<br />
-              org.testng.TestNG.run(TestNG.java:1007)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.009s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=#back-btn}</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.islinktext_or_button_Enabled(reusableTestMethods.java:91)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_BackButton_is_Enabled(aaa0001forgotPasswordUITest.java:217)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Present
+      </td>
+  <td class="duration">
+    0.015s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=#back-btn}</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.islinktext_or_button_is_Present(reusableTestMethods.java:83)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_BackButton_is_Present(aaa0001forgotPasswordUITest.java:206)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_InsideLabel_is_Correct
+      </td>
+  <td class="duration">
+    0.010s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=#email}</b></a><br />
+    <div class="stackTrace" id="exception-3">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.getplaceholder_text(reusableTestMethods.java:76)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_EmailInputfield_InsideLabel_is_Correct(aaa0001forgotPasswordUITest.java:196)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Enabled
+      </td>
+  <td class="duration">
+    10.020s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=#email}</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.isInputfieldEnabled(reusableTestMethods.java:68)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_EmailInputfield_is_Enabled(aaa0001forgotPasswordUITest.java:185)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Present
+      </td>
+  <td class="duration">
+    10.052s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#email&quot;}<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=#email}</b></a><br />
+    <div class="stackTrace" id="exception-5">
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.isInputfieldPresent(reusableTestMethods.java:60)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_EmailInputfield_is_Present(aaa0001forgotPasswordUITest.java:175)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_Name_is_Correct
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=button.btn.btn-success.uppercase.pull-right}</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.isText_Label_Name_correct(reusableTestMethods.java:54)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_SubmitButton_Name_is_Correct(aaa0001forgotPasswordUITest.java:260)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=button.btn.btn-success.uppercase.pull-right}</b></a><br />
+    <div class="stackTrace" id="exception-7">
+              jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.islinktext_or_button_Enabled(reusableTestMethods.java:91)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_SubmitButton_is_Enabled(aaa0001forgotPasswordUITest.java:249)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Present
+      </td>
+  <td class="duration">
+    0.007s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-8', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+from unknown error: web view not found<br/>
+&nbsp; (Session info: chrome=87.0.4280.88)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;DESKTOP-IHTC1M0&apos;, ip: &apos;192.168.254.144&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:8062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br/>
+Session ID: a0bb12aecba00d6a2c2d6bfb7d379859<br/>
+*** Element info: {Using=css selector, value=button.btn.btn-success.uppercase.pull-right}</b></a><br />
+    <div class="stackTrace" id="exception-8">
+              jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)<br />
+              java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)<br />
+              java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)<br />
+              org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)<br />
+              forgotPassword.reusableTestMethods.islinktext_or_button_is_Present(reusableTestMethods.java:83)<br />
+              forgotPassword.aaa0001forgotPasswordUITest.Test_if_SubmitButton_is_Present(aaa0001forgotPasswordUITest.java:238)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:564)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)<br />
+              org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)<br />
+              org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)<br />
+              org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br />
+              org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)<br />
+              org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:764)<br />
+              org.testng.TestRunner.run(TestRunner.java:585)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:384)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:286)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1069)<br />
+              org.testng.TestNG.run(TestNG.java:1037)<br />
               org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
               org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
               org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
@@ -95,15 +654,15 @@ Session ID: 07046268d950cb7877204d64ba6ab888</b></a><br />
   <table class="resultsTable" width="100%">
     <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">forgotPassword.runTestforgotpasswordUI</td>
+        <td colspan="3" class="group">forgotPassword.aaa0001forgotPasswordUITest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  Testforgotpasswordsubtitle
+                  Test_if_BackButton_Name_is_Correct
       </td>
   <td class="duration">
-    10.041s
+    0.006s
   </td>
   <td class="result">
                                
@@ -114,10 +673,10 @@ Session ID: 07046268d950cb7877204d64ba6ab888</b></a><br />
 </tr>
 <tr>
   <td class="method">
-                  Testforgotpasswordsubtitle
+                  Test_if_BackButton_Name_is_Correct
       </td>
   <td class="duration">
-    10.034s
+    0.008s
   </td>
   <td class="result">
                                
@@ -128,10 +687,346 @@ Session ID: 07046268d950cb7877204d64ba6ab888</b></a><br />
 </tr>
 <tr>
   <td class="method">
-                  Testforgotpasswordsubtitle
+                  Test_if_BackButton_Name_is_Correct
       </td>
   <td class="duration">
-    13.130s
+    0.006s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.011s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.014s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Present
+      </td>
+  <td class="duration">
+    0.020s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Present
+      </td>
+  <td class="duration">
+    0.013s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_BackButton_is_Present
+      </td>
+  <td class="duration">
+    0.021s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_InsideLabel_is_Correct
+      </td>
+  <td class="duration">
+    10.011s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_InsideLabel_is_Correct
+      </td>
+  <td class="duration">
+    0.007s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_InsideLabel_is_Correct
+      </td>
+  <td class="duration">
+    2.949s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Enabled
+      </td>
+  <td class="duration">
+    10.026s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Enabled
+      </td>
+  <td class="duration">
+    10.042s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Enabled
+      </td>
+  <td class="duration">
+    10.031s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Present
+      </td>
+  <td class="duration">
+    10.030s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Present
+      </td>
+  <td class="duration">
+    10.066s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_EmailInputfield_is_Present
+      </td>
+  <td class="duration">
+    10.038s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_Name_is_Correct
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_Name_is_Correct
+      </td>
+  <td class="duration">
+    0.009s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_Name_is_Correct
+      </td>
+  <td class="duration">
+    0.007s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.008s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Enabled
+      </td>
+  <td class="duration">
+    0.006s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Present
+      </td>
+  <td class="duration">
+    0.007s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Present
+      </td>
+  <td class="duration">
+    0.009s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_SubmitButton_is_Present
+      </td>
+  <td class="duration">
+    0.009s
   </td>
   <td class="result">
                                
@@ -142,6 +1037,97 @@ Session ID: 07046268d950cb7877204d64ba6ab888</b></a><br />
 </tr>
       </table>
 
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">forgotPassword.aaa0001forgotPasswordUITest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Test_Main_Title_is_Present
+      </td>
+  <td class="duration">
+    2.239s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_SubTitle_is_Present
+      </td>
+  <td class="duration">
+    0.059s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_SubTitle_is_correct
+      </td>
+  <td class="duration">
+    0.034s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_InstructionalText_is_Correct
+      </td>
+  <td class="duration">
+    0.033s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_if_InstructionalText_is_Present
+      </td>
+  <td class="duration">
+    0.046s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  Test_is_Main_Title_correct
+      </td>
+  <td class="duration">
+    0.042s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
   
 </body>
 </html>

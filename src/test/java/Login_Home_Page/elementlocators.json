@@ -28,12 +28,15 @@
 		{
 			"footer_text": "JetWebinar 2020",
 			"csslocator": "div.login-footer > div > div.col-xs-7.bs-reset > div > p"
+		},
+		{
+			"Test_URL":"https://aldwinjuma.qa.jetwebinar.com/"
 		}
 	],
 	"login_scenarios": [
 		{
-			"username": "aldwinj@jetwebinar.com",
-			"password": "e4267660"
+			"username": "aldwinjumaoas@gmail.com",
+			"password": "12345"
 		},
 		{
 			"incorrect_username": "aldwin@jetwebinar.com",
@@ -52,7 +55,7 @@
 	],
 	"DashboardPage": [
 		{
-			"expectedURLpage": "https://aldwinj.qa.jetwebinar.com/admin/dashboard"
+			"expectedURLpage": "/admin/dashboard"
 		},
 		{
 			"DashboardPanel_Title":"Dashboard",

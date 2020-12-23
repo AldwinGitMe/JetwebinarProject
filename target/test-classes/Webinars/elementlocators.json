@@ -1,20 +1,23 @@
 {
-	"login_credentials": [
+	"user_account": [
 		{
-			"username": "aldwinj@jetwebinar.com",
-			"password": "e4267660"
+			"username": "aldwinjumaoas@gmail.com",
+			"password": "12345"
 		},
 		{
-			"username_inputifeld": "Username",
+			"usernameInputfield_placeholder_text": "Username",
 			"csslocator": "#uname"
 		},
 		{
-			"password_inputfield": "Password",
+			"passwordInputfield_placeholder_text": "Password",
 			"csslocator": "#pass"
 		},
 		{
-			"signin_button": "Sign In",
+			"SignInButton_name": "SIGN IN",
 			"csslocator": "#loginform > div:nth-child(3) > div.col-sm-8.text-right > button"
+		},
+		{
+			"Test_URL": "https://aldwinjuma.qa.jetwebinar.com/"
 		}
 	],
 	"Webinars_Main_menu": [
@@ -33,7 +36,7 @@
 	],
 	"Add_New_Webinar_Page": [
 		{
-			"URL": "https://aldwinj.qa.jetwebinar.com/admin/webinars/add"
+			"URL": "/admin/webinars/add"
 		},
 		{
 			"Title": "Add New Webinar - Select Template",
@@ -60,7 +63,9 @@
 		{
 			"Use_Adeline_Button": "USE ADELINE",
 			"csslocator": "div > div:nth-child(1) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[1]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[1]",
+			"IconUseAdelineButton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(1) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
 		}
 	],
 	"Mesa_Template": [
@@ -79,7 +84,9 @@
 		{
 			"Use_Mesa_Button": "USE MESA",
 			"csslocator": "#collapse_1 > div > div > div > div:nth-child(2) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[2]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[2]",
+			"IconUSEMESAbutton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(2) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
 		}
 	],
 	"Belmont_Template": [
@@ -98,7 +105,9 @@
 		{
 			"Use_Belmont_Button": "USE BELMONT",
 			"csslocator": "#collapse_1 > div > div > div > div:nth-child(3) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[3]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[3]",
+			"IconUSEBELMONTbutton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(3) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
 		}
 	],
 	"Oak_Template": [
@@ -117,7 +126,9 @@
 		{
 			"Use_Oak_Button": "USE OAK",
 			"csslocator": "#collapse_1 > div > div > div > div:nth-child(4) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[4]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[4]",
+			"IconUSEOAKbutton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(4) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
 		}
 	],
 	"Nexgen_Template": [
@@ -136,7 +147,9 @@
 		{
 			"Use_Nexgen_Button": "USE NEXGEN",
 			"csslocator": "#collapse_1 > div > div > div > div:nth-child(5) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[5]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[5]",
+			"IconUSENEXGENbutton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(5) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
 		}
 	],
 	"Chicago_Template": [
@@ -155,7 +168,9 @@
 		{
 			"Use_Chicago_Button": "USE CHICAGO",
 			"csslocator": "#collapse_1 > div > div > div > div:nth-child(6) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[6]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[6]",
+			"IconUSECHICAGObutton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(6) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
 		}
 	],
 	"Clark_Template": [
@@ -174,7 +189,9 @@
 		{
 			"Use_Clark_Button": "USE CLARK",
 			"csslocator": "#collapse_1 > div > div > div > div:nth-child(7) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[7]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[7]",
+			"IconUSECLARKbutton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(7) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
 		}
 	],
 	"Laguna_Template": [
@@ -193,7 +210,144 @@
 		{
 			"Use_Laguna_Button": "USE LAGUNA",
 			"csslocator": "#collapse_1 > div > div > div > div:nth-child(8) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a",
-			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[8]"
+			"xpath": "(//ul/li/a[@class='btn default btn-outline'])[8]",
+			"IconUSELAGUNAbutton": "icon-check",
+			"iconcsslocator": "#collapse_1 > div > div > div > div:nth-child(8) > div > div.mt-card-avatar.mt-overlay-1 > div > ul > li > a > i"
+		}
+	],
+	"Webinar_Settings": [
+		{
+			"accordion_title": "Webinar Settings",
+			"titleaccordioncsslocator": "#tour_addwebinar > div.portlet-body.form > div.panel.panel-default > div.panel-heading > h4 > a"
+		},
+		{
+			"webinar_url": "Webinar URL",
+			"webinarurllabelcsslocator": "#collapse_2 > div > div:nth-child(2) > label",
+			"inputlabelcsslocator": "#collapse_2 > div > div:nth-child(2) > div > span",
+			"placeholderText": "URL",
+			"inputfieldcsslocator": "#wb_url",
+			"webinar_url_titleColor_inHex":"#e73d4a",
+			"webinar_url_titleColor_inRGB":"rgba(231, 61, 74, 1)",
+			"passColor_inHex":"#27a4b0",
+			"passColor_inRGB":"rgba(39, 164, 176, 1)"
+		},
+		{
+			"webinar_title": "Webinar Title",
+			"webinartitlecsslocator": "#collapse_2 > div > div:nth-child(3) > label",
+			"placeholderText": "Webinar Title",
+			"inputfieldcsslocator": "#wb_title",
+			"webinar_titleColor_inHex":"#e73d4a",
+			"webinar_titleColor_inRGB":"rgba(231, 61, 74, 1)",
+			"passColor_inHex":"#27a4b0",
+			"passColor_inRGB":"rgba(39, 164, 176, 1)"
+		},
+		{
+			"event_timezone_label": "Event Timezone",
+			"eventimezonecsslocator": "#collapse_2 > div > div:nth-child(4) > label",
+			"selectionmenucsslocator": "#wb_timezone",
+			"event_timezone_titleColor_inHex":"#e73d4a",
+			"event_timezone_titleColor_inRGB":"rgba(231, 61, 74, 1)",
+			"passColor_inHex":"#27a4b0",
+			"passColor_inRGB":"rgba(39, 164, 176, 1)",
+			"InfoTip":"The timezone where the webinar will be hosted",
+			"infotipcsslocator":"#collapse_2 > div > div:nth-child(4) > span"		
+		},
+		{
+			"EventTypeLabel": "Event Type",
+			"eventtypecsslocator": "#collapse_2 > div > div:nth-child(5) > label",
+			"eventtypeselectioncsslocator": "#wb_type",
+			"LiveBroadcast": "Live Broadcast",
+			"livebroadcastcsslocator": "#wb_type > option:nth-child(1)",
+			"Simulated_Live": "Simulated Live",
+			"simulatedlivecsslocator": "#wb_type > option:nth-child(2)",
+			"Instant_Replay": "Instant Replay",
+			"instantreplaycsslocator": "#wb_type > option:nth-child(3)"
+		},
+		{
+			"EventTime": "Event Time",
+			"eventtimecsslocator": "#event_live > label",
+			"inputdatefieldcsslocator": "#live_time_once",
+			"dateinputiconcsslocator": "#event_live > div > span",
+			"datepickercsslocator": "#event_live > div > div"
+		},
+		{
+			"GoBackButton":"GO BACK",
+			"gobackbuttoncsslocator":"#collapse_2 > div > div.btn-group.pull-right > button:nth-child(1)",
+			"Goback_Icon":"fa fa-arrow-left",
+			"iconcsslocator":"#collapse_2 > div > div.btn-group.pull-right > button:nth-child(1) > i"
+		},
+		{
+			"AddWebinarButton":"ADD WEBINAR",
+			"addwebinarbuttoncsslocator":"#sample_editable_1_new",
+			"AddWebinar_Icon":"fa fa-plus",
+			"iconcsslocator":"#sample_editable_1_new > i"
+		},
+		{
+			"Simulated_Live_Timing_Label":"Simulated Live Timing",
+			"simulatedlivetiminglablecsslocator":"#event_simulated > div:nth-child(1) > label",
+			"simulatedlivetiming_selectionmenu":"#wb_simulated_timing",
+			"Run_Once":"Run Once",
+			"runoncecsslocator":"#wb_simulated_timing > option:nth-child(1)",
+			"Run_Hourly":"Run Hourly",
+			"runhourlycsslocator":"#wb_simulated_timing > option:nth-child(2)",
+			"Run_Recurring":"Run Recurring",
+			"runrecurringcsslocator":"#wb_simulated_timing > option:nth-child(3)",
+			"simulatedtimeinputcsslocator":"#simulated_time_once",
+			"Webinar_Time_Label":"Webinar Time",
+			"webinartimelabelcsslocator":"#simulated_recurring > label",
+			"chooseaweekdayselectionmenucsslocator":"#day_selector_1",
+			"Sunday_value":"sunday",
+			"Sundaysubmenu":"Sunday",
+			"sundaycsslocator":"#day_selector_1 > option:nth-child(2)",
+			"Monday_value":"monday",
+			"Mondaysubmenu":"Monday",
+			"mondaycsslocator":"#day_selector_1 > option:nth-child(3)",
+			"Tuesday_value":"tuesday",
+			"Tuesdaysubmenu":"Tuesday",
+			"tuesdaycsslocator":"#day_selector_1 > option:nth-child(4)",
+			"Wednesday_value":"wednesday",
+			"Wednesdaysubmenu":"Wednesday",
+			"wednesdaycsslocator":"#day_selector_1 > option:nth-child(5)",
+			"Thursday_value":"thursday",
+			"Thursdaysubmenu":"Thursday",
+			"thursdaycsslocator":"#day_selector_1 > option:nth-child(6)",
+			"Friday_value":"friday",
+			"Fridaysubmenu":"Friday",
+			"fridaycsslocator":"#day_selector_1 > option:nth-child(7)",
+			"Saturday_value":"saturday",
+			"Saturdaycsslocator":"Saturday",
+			"saturdaycsslocator":"#day_selector_1 > option:nth-child(8)",
+			"ChooseaWeekday_value":"{}",
+			"chooseaweekdayselectionValuecsslocator":"#time_listing",
+			"Add_Another_Weekday_Button_Name":"ADD ANOTHER WEEKDAY",
+			"addanotherweekdaybuttoncsslocator":"#simulated_recurring > div > button",
+			"addanotherweekdaybuttonIconName":"fa fa-calendar-o",
+			"addanotherweekdaybuttoniconcsslocator":"#simulated_recurring > div > button > i",
+			"settimedayinputfield1csslocator":"#time_selector_picker_1_1",
+			"settimedayclosebuttoncsslocator":"#time_selector_group_1_1 > span > button",
+			"Add_Another_Time_button":"ADD ANOTHER TIME",
+			"addanothertimebuttoncsslocator":"#week_selector_1 > button",
+			"AddAnotherTimeButtonIconName":"fa fa-clock-o",
+			"addanothertimebuttoniconcsslocator":"#week_selector_1 > button > i"
+		}
+	],
+	"ErrorMessages": [
+		{
+			"Please_check_Error":"Please check to make sure the fields are filled out properly",
+			"pleasecheckcsslocator":"#collapse_2 > div > div.alert.alert-danger.display-none",
+			"textcolor_inHex":"#e73d4a",
+			"textcolor_RGB":"rgba(231, 61, 74, 1)",
+			"text_backgroundcolor_inHex":"#fbe1e3",
+			"text_backgroundcolor_inRGB":"rgba(251, 225, 227, 1)"
+		}		
+	],
+	"All_Webinars_Page": [
+		{
+			"allwebinarscsslocator":"#main > div.page-sidebar-wrapper > div > ul > li.open > ul > li:nth-child(1) > a",
+			"buttonName":"START LIVE BROADCAST",
+			"startlivebuttonNamecsslocator":"//table[@id='webinarlist']/tbody/tr/td[3]/a",
+			"buttonIconName":"fa fa-play",
+			"expectedLinkText":"Webinar Link"
 		}
 	]
 }

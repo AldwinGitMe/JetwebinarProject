@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MeetingRooms"
+           tests="30"
+           failures="0"
+           errors="0"
+           skipped="30"
+           time="-25731291976.816">
+  <properties />
+  
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="launchbrowser" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="aftertest" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_If_StartMeetingRoom_ConfirmmationDialog_Will_Popup_When_StartMeetingNow_Button_Is_Clicked" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Click_cancelButton_will_close_StartMeetingRoomModalDialog" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_questionText_is_Present" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_Title_is_textCorrect" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_STARTMEETINGButton_name_is_Correct" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_CancelButton_name_is_Correct" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_Correct_URL_in_HostMeetingRoom" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_CancelButton_is_Present" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_CancelButton_is_Enabled" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_Title_is_Present" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_if_STARTMEETINGbutton_is_click_HostMeetingRoom_will_launch_next_windowTab" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_STARTMEETINGButton_is_Enabled" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_STARTMEETINGButton_is_Present" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+            <testcase name="Test_Start_Meeting_Room_modalDialog_questionText_is_textCorrect" time="0.0" classname="MeetingRooms.aaa0002StartMeetingRoomConfirmationDialogTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
